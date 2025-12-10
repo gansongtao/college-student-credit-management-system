@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Context reloadable="true">
+    <Resource name="jdbc/gaussDB"
+              type="javax.sql.DataSource"
+              maxTotal="4"
+              maxIdle="2"
+              driverClassName="org.postgresql.Driver"
+              url="jdbc:postgresql://110.41.127.77:8000/db_zjut"
+              username="db_user50"
+              password="db_user50@123"
+              maxWaitMillis="5000"/>
+</Context>
